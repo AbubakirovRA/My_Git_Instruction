@@ -39,3 +39,44 @@ _**git commit -m "Текст Вашего комментария"**_
 ## Удаление веток
 
 ## Скачивание удаленного репозитория
+
+# Git setup Instruction #
+
+### Download the Git:
+
+follow this links:
++ [Windows](https://git-scm.com/download/win)
++ [MacOS](https://git-scm.com/download/mac)
++ [Linux](https://git-scm.com/download/linux)
+### Install it on your computer
+### Next, you need to configure Git: 
+
+To show all insalled setup use command with a keys:
+
+git config --list --show-origin
+
+First, that you need to do to setup Git:
+----------------------------------------
+you need to enter your name and your email address. For example:
+
++ **git config --global user.name "AbubakirovRA"**
+
++ **git config --global user.email AbubakirovRA@yandex.ru**
+
+Several commands for working in Git
+===================================
+ + **git version** - show version installed Git
+ 
+ + **git init** - initialisation current workdirectory to repository
+ + **git status** - show all change in tracking directory
++ **git add** - add file to tracking of change in current directory
++ **git commit** - creating the "point of recovery" current directory - repositry. If use a key -m, than posible add message for current "point of recovery"
++ **git log** - show all commits an current repository
++ **git checkout** - restore specified commit
++ **git checkout master** - return to master branch
++ **git diff** - compare current save with previous version
+
+
+detailed install and setup instructions can be found at the link: [Install&Setup](https://git-scm.com/book/ru/v2/)
+
+  ![Picture](https://gbcdn.mrgcdn.ru/uploads/avatar/3320581/attachment/thumb-da6ca1bdffc83bcc292b06d091d82d14.png "GeekBrains-AbubakirovRA")
