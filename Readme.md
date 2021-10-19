@@ -106,6 +106,13 @@ git branch -r
 
 *'git clone https://github.com/AbubakirovRA/version_control_lection_3.git'*
 
+_**git remote add origin**_
+
+_**git pull = git fetch + git merge**_
+
+_**git push**_
+
+
 **Переписка по поводу скачивания ветки из удаленного репо:**
 
 Добрый вечер)) вот такой вопрос - кто уже пробовал поработать в GitHub? Я делаю ветку в GitHub, пытаюсь её перетащить в локальный репозиторий, а она не перетаскивается. Из локального в GitHub без проблем. Может кто сталкивался?
